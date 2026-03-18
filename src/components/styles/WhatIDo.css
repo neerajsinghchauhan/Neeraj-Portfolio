@@ -34,7 +34,7 @@
 }
 .what-box-in {
   flex-direction: column;
-  height: 500px;
+  height: 550px;
   margin-left: 200px;
   position: relative;
   display: none;
@@ -52,14 +52,14 @@
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
+  min-height: 70%;
   padding: 40px 50px;
 }
 
 .what-noTouch:hover ~ .what-content,
 .what-box-in:hover .what-noTouch:not(:hover),
 .what-content.what-sibling {
-  min-height: 33%;
+  min-height: 30%;
   padding: 10px 50px;
 }
 .what-content h3 {
@@ -206,7 +206,7 @@
 }
 .what-content-in {
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 .what-content-in h5 {
   font-weight: 300;
