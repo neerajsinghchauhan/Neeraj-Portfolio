@@ -69,7 +69,7 @@ const SocialIcons = () => {
         </span>
         {/* Intentionally removed X and Instagram per resume details */}
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="Resume.pdf">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
